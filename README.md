@@ -51,7 +51,7 @@
 ```
 3. application.yml / application.properties 이외의 추가적인 파일을 사용하고 싶을때
 - 추가적인파일을 클래스패스에 생성한다.(보통은 /resource/** 아래에 생성)
-- @0Configuration 클래스를 추가하여 추가 파일 경로를 지정한다. 이때 profile을 고려하여 파일명을 지정한다.
+- @Configuration 클래스를 추가하여 추가 파일 경로를 지정한다. 이때 profile을 고려하여 파일명을 지정한다.
 - 이후 application.yml/application.properties 에 지정한 key/value 값 사용시와 동일하게 사용한다.
 ```
 ...
